@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+header{
+    height:50px;
+    background: #3399FF;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+#neirong{
+    padding: 0 15px;
+        overflow: hidden;
+}
+form input{
+ display: block;
+ width:100%;
+ height:40px;
+ margin:15px 0;
+}
+form button{
+    width: 100%;
+    height:45px;
+    background: #3399FF;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+} 
+#content{
+    margin-top: 15px;
+}
+.list{
+        color:red;
+}
+span{
+    float: right;
+    font-size: 18px;
+}
+.list>span:before{
+    content: "-"
+}
+.all,.list{
+    margin-top:12px;
+}
+.hr{
+    width:100%;
+    height: 1px;
+    background: #000;
+    margin-top: 10px;
+}
+.total{
+    font-weight: bold;
+}
+.true{
+    display:block;
+}
+.false{
+    display:none;
+}
